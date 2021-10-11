@@ -1,0 +1,37 @@
+/*
+#5499C7
+#1A5276
+*/
+.schedules
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 15px;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.schedules div
+{
+	background-color: #1A5276;
+	margin:15px;
+	width: 350px;
+	padding: 15px;
+	border-radius: 9px;
+	color: white;
+}
+button
+{
+	border:none;
+	outline: none;
+	background:none;
+	cursor: pointer;
+	padding: 5px;
+	width: 25px;
+	color: white;
+	background-color: #5499C7;
+	border-radius: 5px;
+	width: auto;
+	font-weight: bold;
+}

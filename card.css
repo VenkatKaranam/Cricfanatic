@@ -1,0 +1,46 @@
+/*
+#5499C7
+#1A5276
+*/
+button
+{
+	padding: 5px;
+	width: 150px;
+	outline: none;
+	border:none;
+	background-color: #1A5276;
+	color: white;
+	border-radius: 15px;
+}
+
+#a,#b
+{
+	width: 450px;
+	background-color: #1A5276;
+	color: white;
+	margin-top: 15px;
+	padding: 15px;
+}
+
+
+#a,#b
+{
+	display: none;
+}
+table tr td
+{
+	color: white;
+}
+
+@media (max-width: 500px)
+{
+	#a,#b
+	{
+		width: 350px;
+	}
+
+	table tr td
+	{
+		font-size: 10px;
+	}
+}

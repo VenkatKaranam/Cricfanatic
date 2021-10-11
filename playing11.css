@@ -1,0 +1,31 @@
+/*
+#5499C7
+#1A5276
+*/
+.display
+{
+	padding: 15px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #5499C7;
+	background-color: #5499C7;
+	padding: 15px;
+	width: 400px;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+a
+{
+	color: white;
+	font-weight: bold;
+}
+
+
+@media (max-width: 500px)
+{
+	.display
+	{
+		width: 350px;
+	}
+}

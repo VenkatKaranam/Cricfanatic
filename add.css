@@ -1,0 +1,165 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#warning
+{
+	
+	background-color: red;
+	color: white;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	display: none;
+}
+#warning1
+{
+	
+	background-color: red;
+	color: white;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+}
+button
+{
+	border:none;
+	outline: none;
+	background:none;
+	cursor: pointer;
+	padding: 5px;
+	width: 25px;
+	color: white;
+	background-color: #1A5276;
+}
+.button
+{
+	background-color:  #1A5276;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.button1
+{
+	border:none;
+	outline: none;
+	background:none;
+	cursor: pointer;
+	padding: 5px;
+	color: white;
+	background-color: #1A5276;
+	width: 150px;
+	border-radius: 15px;
+	height: 50px;
+	margin-top: 50px;
+}
+.container{
+	max-width: 350px;
+	width: 100%;
+	background: #fff5;
+	position: relative;
+	padding: 20PX;
+}
+
+.h2{
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 25px;
+color: #1a5276;
+text-transform: uppercase;
+text-align: center;
+}
+
+.input{	 
+	width: 250px;
+	outline: none;
+	border: 1px solid #d5dbd9;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius:5px; 
+}
+
+.search{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+ 
+ .btn{
+	padding: 8px 10px;
+	font-size: 15px;
+	border:0;
+	background: #1a5276;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+}
+
+.btn:hover{
+	background: #5499c7;
+}
+
+.block{
+	display: flex;
+	flex-direction: row;
+	background: lightgray;
+	border-radius: 5px;
+	margin-top: 20px;
+	height: 50px;
+	position: relative;
+}
+
+label{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+img{
+	position: relative;
+	top: 7px;
+	left: 5px;
+	}
+
+.addbtn{
+
+	position: absolute;
+	left: 87%;
+	margin-top: 10px;
+	outline: none;
+
+}
+
+.bt{
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+ .continuebtn{
+	padding: 8px 10px;
+	font-size: 15px;
+	border:0;
+	background: darkorange;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+	}
+
+ .continuebtn:hover{
+ 	background: orange;
+ }
+@media (max-width: 940px)
+ {
+ 	.container{
+ 		top:; 
+ 	}
+ }

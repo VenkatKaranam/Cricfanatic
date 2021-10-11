@@ -1,0 +1,185 @@
+/*
+#5499C7
+#1A5276
+*/
+body
+{
+	overflow-x: hidden;
+}
+#x,#c
+{
+	display: none;
+}
+
+a
+{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	background-color: #5499C7;
+	padding: 5px;
+	border-radius: 5px;
+}
+.score
+{
+	
+	background-color: #5499C7;
+	margin-top: 15px;
+	padding:15px;
+	font-size: 35px;
+	color: white;
+}
+
+.bord
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+	padding:15px;
+}
+#a
+{
+	display: none;
+}
+
+.player
+{
+	width: 500px;
+	padding: 15px;
+	font-size: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+.det
+{
+	font-size: 25px;
+}
+form
+{
+	padding: 25px;
+	margin-top: 15px;
+	background-color: #1A5276;
+	color: white;
+	border-radius: 5px;
+	font-size: 25px;
+}
+input [type='radio']
+{
+	padding: 15px;
+	margin-left: 150px;
+}
+.updscore
+{
+	width: 500px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.bowler
+{
+	padding: 20px;
+	margin-top: 15px;
+	background-color: #1A5276;
+	color: white;
+	border-radius: 5px;
+}
+
+button
+{
+	width: 90px;
+	height: 70px;
+	border:none;
+	background-color: #f2f2f2;
+	border: 2px solid #1A5276;
+	border-radius: 15px;
+	outline: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover
+{
+	background-color: #5499C7;
+	color: white;
+}
+.over
+{
+	width: 650px;
+	border-radius: 15px;
+	border: 2px solid #5499C7;
+	padding: 25px;
+	margin-left: 15px;
+	text-align: left;
+	font-size: 20px;
+
+}
+.dis
+{
+	font-size: 35px;
+}
+
+.bal
+{
+	padding: 8px;
+	height: 10px;
+	align-items: center;
+	display: flex;
+	border-radius: 50px;
+	border: 1px solid #1A5276;
+}
+
+#ex,#ru
+{
+	width: 155px;
+	font-weight: bold;
+	height: 50px;
+}
+
+@media (max-width: 940px)
+{
+	.bord
+	{
+		flex-direction: column; 
+	}
+	.player
+	{
+		width: 350px;
+		margin-right: 25px;
+	}
+	.updscore
+	{
+		width: 350px;
+		display: block;
+	}
+	form
+	{
+		font-size: 15px;
+	}
+	.over
+	{
+		width: 300px;
+	}
+	button
+	{
+		width: 75px;
+	}
+	.det
+	{
+		font-size: 10px
+	}
+	.dis
+	{
+		font-size: 15px;
+	}
+	.tab
+	{
+		margin-left: 25px;
+	}
+	#ex,#ru
+	{
+		width: 75px;
+	}
+}

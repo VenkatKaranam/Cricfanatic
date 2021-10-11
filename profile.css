@@ -1,0 +1,77 @@
+/*
+#5499C7
+#1A5276
+*/
+
+.profile
+{
+	background-color: #f2f2f2;
+	width: 500px;
+	margin: 5px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 6px #1A5276;
+}
+
+.profilepic
+{
+
+	padding:15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.propic
+{
+	width: 100px;
+	height: 100px;
+	background-color:#5499C7;
+	border-radius: 50%;
+}
+
+h3
+{
+	text-align: center;
+	font-family: sans-serif;
+	color: #1A5276;
+}
+
+table
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.lef
+{
+	text-align: right;
+	color: #1A5276;
+	font-weight: bold;
+}
+.rig
+{
+	text-align: left;
+}
+
+#button2
+{
+	background:none;
+	outline: none;
+	border:none;
+	background-color: #1A5276;
+	padding: 5px;
+	border-radius: 5px;
+}
+#button2 a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+@media (max-width: 940px)
+{
+	.profile
+	{
+		width: 350px;
+	}
+}

@@ -1,0 +1,152 @@
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.container{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,20%);
+	width: 400px;
+	padding:25px;
+	background: white;
+
+
+}
+.custom_selection{
+
+	position: relative;
+	width: 100%;
+	height: 37px;
+	margin-bottom: 4px;
+}
+select{
+	outline: none;
+	-webkit-appearance:none;
+	appearance:none;
+	width: 100%;
+	height: 100%;
+	padding: 3px 0px 3px 10px;
+	border-radius: 5px;
+	border: 1px solid #d5dbd9;
+	outline: none;
+	text-transform: uppercase;
+
+}
+.custom_selection:before{
+	content: "";
+	position: absolute;
+	top: 16px;
+	right: 12px;
+	border:8px solid;
+	border-color: gray transparent transparent transparent;
+	pointer-events: none;
+
+}
+#warning
+{
+	
+	background-color: red;
+	color: white;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+	display: none;
+}
+#warning1
+{
+	
+	background-color: red;
+	color: white;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 5px;
+}
+button
+{
+	border:none;
+	outline: none;
+	background:none;
+	cursor: pointer;
+	padding: 5px;
+	width: 25px;
+	color: white;
+	background-color: #1A5276;
+}
+
+.title{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 20px;
+	color: #1a5276;
+	text-transform: uppercase;
+	text-align: center;
+}
+form{
+	padding:10px 30px 20px;
+	box-sizing: border-box;
+} 
+.input_field{
+	position: relative;
+	border-bottom: 2px solid lightgray;
+	margin: 30px 0;
+}
+.input_field input{
+	width: 90%;
+	padding: 0 5px 0 40PX;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background:none;
+	outline:none;
+
+}
+
+label{
+	position: absolute;
+	top: 50%;
+	left:5px;
+	color: #adadad;
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+
+input:focus~label ,
+input:valid~label
+{
+	top: -5px;
+	color: #1a5276;
+}
+
+
+.btn{
+	width: 100%;
+	padding: 8px 5px;
+	font-size: 15px;
+	border:0;
+	background: #1a5276;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+
+.btn:hover{
+	background: #5499c7;
+}
+
+@media (max-width: 940px){
+	.container{
+		width: 300px;
+	}
+
+
+
+}

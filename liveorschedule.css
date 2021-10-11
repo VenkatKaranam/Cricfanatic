@@ -1,0 +1,50 @@
+.maincon
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.live,.schedule
+{
+	background-color: #1A5276;
+	width: 450px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 15px;
+	height: 250px;
+}
+
+.maincon a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.maincon a:hover
+{
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+@media (max-width: 940px)
+{
+	.maincon
+	{
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+
+	.live,.schedule
+	{
+		width: 350px;
+		height: 150px;
+		margin-top: 15px;
+	}
+}
